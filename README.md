@@ -16,7 +16,8 @@ More crypto themes and softs in telegram: [ApeCryptor](https://t.me/+_xCNXumUNWJ
 
 Required libraries you need downloaded from `requirements.txt` 
 
-
+### Python Version 🐍
+Preferably python 3.6-3.9
 
 
 
