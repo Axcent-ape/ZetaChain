@@ -8,6 +8,9 @@ import base64
 from data import abi
 
 
+# 0x48f80608B672DC30DC7e3dbBd0343c5F02C738Eb zeta bsc-bnb ZRC20 address
+#
+
 class ZetaChain:
     def __init__(self, key: str, thread: int, proxy=None):
         self.web3_utils = Web3Utils(key=key, http_provider=config.RPCs['zetachain'])
