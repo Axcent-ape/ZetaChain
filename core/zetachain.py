@@ -46,9 +46,7 @@ class ZetaChain:
 
         await asyncio.sleep(rs)
 
-
     async def logout(self):
-
         await self.session.close()
 
     # @staticmethod
@@ -86,7 +84,7 @@ class ZetaChain:
             "to": "0x3C85e0cA1001F085A3e58d55A0D76E2E8B0A33f9",
             "value": 0,
             "nonce": self.web3_utils.w3.eth.get_transaction_count(self.web3_utils.acct.address),
-            "gasPrice": self.web3_utils.w3.eth.gas_price,
+            # "gasPrice": self.web3_utils.w3.eth.gas_price,
             "chainId": 7000,
             "data": data,
         }
