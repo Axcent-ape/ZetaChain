@@ -577,7 +577,7 @@ class ZetaChain:
         session.headers['Referer'] = "https://mission.ultiverse.io/t/ZmluZHBhdGh8MTcwNjg2MDczMTkzMQ=="
 
         json_data = {
-            "eventId": 17,
+            "eventId": 18,
             "address": self.web3_utils.acct.address,
         }
 
